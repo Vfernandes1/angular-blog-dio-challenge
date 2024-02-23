@@ -1,0 +1,37 @@
+.container-small-card{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.small-card-picture > img {
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+    padding-top: 100px;
+}
+
+.small-card-title{
+    display: flex;
+    align-items: center;
+
+}
+
+.small-card-title > h1{
+    margin-left: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-small-card-content{
+    display: flex;
+    flex-direction: row;
+}
+
+/* *hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
