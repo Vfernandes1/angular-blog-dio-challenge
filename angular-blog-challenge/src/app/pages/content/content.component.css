@@ -1,7 +1,10 @@
 .container-content {
     border: 1px solid white;
+    margin-top: 20px;
     width: 100%;
     height: 100%;
+    height: auto;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -9,6 +12,7 @@
 .content-cover > img{
     border: 5px solid white;
     border-radius: 5px;
+    min-width: 500px;
     width: 600px;
     height: 300px;
 }
